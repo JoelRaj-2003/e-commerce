@@ -1,0 +1,35 @@
+.Login-Container {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 100vh;
+}
+
+.login-left-container {
+  width: 60vw;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-image: url(../../assets/LoginImage.svg);
+  background-size: cover;
+  background-position: center;
+}
+
+.login-right-container {
+  flex-direction: column;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f7f7f7;
+}
+.login-email-input {
+  border-radius: 8px;
+  border: 1px solid;
+}
+.login-password-input {
+  border-radius: 8px;
+  border: 1px solid;
+}
+
+.loginform-Container {
+}

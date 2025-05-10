@@ -1,0 +1,15 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.Common_ContiuneButton {
+  border: none;
+  border-radius: 8px;
+}
+
+.signup-button {
+  border: none;
+  background-color: transparent;
+  color: #743995;
+}
