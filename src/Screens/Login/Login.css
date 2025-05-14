@@ -9,18 +9,18 @@
   width: 60vw;
   height: 100%;
   background-repeat: no-repeat;
-  background-image: url(../../assets/LoginImage.svg);
+  background-image: url(../../assets/LoginScreens/LoginImage.svg);
   background-size: cover;
   background-position: center;
 }
 
 .login-right-container {
+  padding-left: 20px;
   flex-direction: column;
   width: 40%;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #f7f7f7;
 }
 .login-email-input {
   border-radius: 8px;
@@ -31,5 +31,7 @@
   border: 1px solid;
 }
 
-.loginform-Container {
+.Login-LogoContainer {
+  padding: 4% 0 0 4%;
+  width: 0;
 }

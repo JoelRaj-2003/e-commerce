@@ -9,7 +9,7 @@ const ContinueButton = ({
   handleButton,
   isDisabled = false,
   isLoading = false,
-  disableBackgroundColor = "grey",
+  disableBackgroundColor = "#a494bd",
 }) => {
   return (
     <button
