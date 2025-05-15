@@ -21,7 +21,7 @@ const presentToast = {
     });
   },
 
-  error: (msg, duration = 8000) => {
+  error: (msg, duration = 3) => {
     const key = `error_${Date.now()}`;
     message.open({
       type: "error",

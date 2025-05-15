@@ -1,0 +1,39 @@
+.otp-input {
+  margin-right: 12px;
+  padding: 12px;
+  width: 50px !important;
+  height: 50px;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin-bottom: 10%;
+}
+
+.OTP-Container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+}
+
+.OTP-titleContainer {
+  margin: 5% 0;
+}
+
+.resend-text {
+  text-align: center;
+  margin-top: 16px;
+  color: #6b7280;
+}
+
+.resend-link {
+  color: #f97316;
+  cursor: pointer;
+  font-weight: 500;
+  background-color: transparent;
+  border: none;
+  text-decoration: underline;
+}

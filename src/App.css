@@ -3,7 +3,7 @@ body {
   margin: 0;
 }
 
-.Common_ContiuneButton {
+/* .Common_ContiuneButton {
   border: none;
   border-radius: 8px;
 }
@@ -12,4 +12,45 @@ body {
   border: none;
   background-color: transparent;
   color: #743995;
+} */
+
+body,
+input,
+button,
+h1,
+h2,
+h3,
+p,
+label {
+  font-family: "MyFont", sans-serif;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+p,
+label,
+input,
+button {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  h2 {
+    font-size: 32px;
+  }
+
+  p,
+  label,
+  input,
+  button {
+    font-size: 16px;
+  }
+}
+
+@font-face {
+  font-family: "MyFont";
+  src: url("./assets/fonts/SF-Pro-Text-Medium.otf") format("truetype");
+  font-weight: bold;
 }

@@ -1,25 +1,28 @@
 import React from "react";
+import Color from "../../../utils/Color";
 
 const ContinueButton = ({
   width = "100%",
   height = "40px",
   color = "#fff",
-  backgroundColor = "#743995",
+  backgroundColor = Color.primary,
   text = "Continue",
   handleButton,
   isDisabled = false,
   isLoading = false,
-  disableBackgroundColor = "#a494bd",
+  disableBackgroundColor = Color.secondary,
 }) => {
   return (
     <button
       className="Common_ContiuneButton"
       style={{
         width,
+        borderRadius: "8px",
         height,
-        color: isDisabled ? "black" : color,
+        color: isDisabled ? "#000" : color,
         backgroundColor: isDisabled ? disableBackgroundColor : backgroundColor,
         cursor: isDisabled ? "not-allowed" : "pointer",
+        border: "none",
       }}
       disabled={isDisabled}
       onClick={handleButton}
